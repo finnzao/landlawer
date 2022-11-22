@@ -27,19 +27,18 @@ body {
 .header {
     padding-top: 100px;
     height: 100vh;
-    background-image: url('./media/lawerback.jpg');
+    background-image: url('./media/lawerback.png');
     background-size: cover;
     background-blend-mode: color-burn 2px;
     background-color: var(--color-prim);
     background-repeat: no-repeat;
-    width: 100%;
-    color: rgb(0, 0, 90);
+    max-width: 100%;
 }
 
 .title {
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+    padding-left: 4%;
     width: 100%;
 }
 
@@ -132,6 +131,12 @@ body {
 }
 
 /* MEDIA SOCIAL */
+@media (max-width:768px) {
+    .categorias {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media(max-width:450px) {
     .title h1 {
         font-size: 300%;
@@ -172,7 +177,8 @@ body {
     border-radius: 1.12em;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+
     font-weight: 300;
     color: #ffffff;
     text-align: center;

@@ -1,2 +1,2 @@
-# https://finnzao/landlawer
+# https://finnzao.github.io/landlawer/
 Website Live

@@ -149,9 +149,13 @@ body {
     background-image: url('./media/pexels-andrea-piacquadio-3771097.jpg');
     background-size: cover;
     background-position: top;
-    padding: 20px;
-    min-height: 90vh;
+    padding: 10%;
+    min-height: 80vh;
     background-color: var(--color-prim);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .about h1 {
@@ -159,6 +163,7 @@ body {
 }
 
 .about_text {
+    margin: 30px 0px;
     font-size: 200%;
 }
 
@@ -243,7 +248,6 @@ body {
     color: #fff;
     background-color: #000000;
     cursor: pointer;
-    margin: 20px;
     height: 55px;
     text-align: center;
     border: none;
